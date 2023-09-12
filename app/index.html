@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+<link rel="shortcut icon" href="img/logo-fav.svg" type="image/x-icon" />
+
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- nouislider -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css"
+/>
+
+<!-- Choices JS  -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"
+/>
+
+<!-- Nice Select -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+/>
+
+<!-- fancybox -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+/>
+
+<!-- Custom Link -->
+<link rel="stylesheet" href="css/style.css" />
+
+<title>Progressive</title>
+
+  </head>
+
+  <body>
+    <div class="popup popup--launch">
+  <div class="popup__container">
+    <button class="popup__close" type="button" aria-label="Закрыть">
+      <svg
+        width="14"
+        height="14"
+        viewBox="0 0 14 14"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0.667603 0.667603C1.03631 0.298896 1.6341 0.298896 2.00281 0.667602L7 5.6648L11.9972 0.667602C12.3659 0.298896 12.9637 0.298896 13.3324 0.667603V0.667603C13.7011 1.03631 13.7011 1.6341 13.3324 2.00281L8.33521 7L13.3324 11.9972C13.7011 12.3659 13.7011 12.9637 13.3324 13.3324V13.3324C12.9637 13.7011 12.3659 13.7011 11.9972 13.3324L7 8.33521L2.00281 13.3324C1.6341 13.7011 1.03631 13.7011 0.667603 13.3324V13.3324C0.298896 12.9637 0.298896 12.3659 0.667602 11.9972L5.6648 7L0.667602 2.00281C0.298896 1.6341 0.298896 1.03631 0.667603 0.667603V0.667603Z"
+          fill="#F5F6FD"
+        />
+      </svg>
+    </button>
+    <div class="popup__wrapper">
+      <h2 class="popup__title">Сообщим о запуске Progressive</h2>
+      <p class="popup__text">
+        Подпишитесь, чтобы первыми получить ссылку на приложение Progressive.
+        Никакого спама, только сообщим о запуске!
+      </p>
+
+      <form class="form-submit">
+        <div class="form-submit__group">
+          <label class="form-submit__label" for="">Имя <small>*</small></label>
+
+          <input
+            class="form-submit__input"
+            type="text"
+            placeholder="Введите имя"
+            required
+          />
+        </div>
+        <div class="form-submit__group">
+          <label class="form-submit__label" for="">
+            E-mail <small>*</small>
+          </label>
+
+          <input
+            class="form-submit__input"
+            type="email"
+            placeholder="Введите e-mail"
+            required
+          />
+        </div>
+
+        <div class="form-submit__policy">
+          Нажимая кнопку «Подписаться», вы соглашаетесь
+          <a href="#">с политикой конфиденциальности</a>
+        </div>
+
+        <button class="form-submit__btn btn" type="button">Подписаться</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="popup popup--default">
+  <div class="popup__container">
+    <button class="popup__close" type="button" aria-label="Закрыть">
+      <svg
+        width="14"
+        height="14"
+        viewBox="0 0 14 14"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0.667603 0.667603C1.03631 0.298896 1.6341 0.298896 2.00281 0.667602L7 5.6648L11.9972 0.667602C12.3659 0.298896 12.9637 0.298896 13.3324 0.667603V0.667603C13.7011 1.03631 13.7011 1.6341 13.3324 2.00281L8.33521 7L13.3324 11.9972C13.7011 12.3659 13.7011 12.9637 13.3324 13.3324V13.3324C12.9637 13.7011 12.3659 13.7011 11.9972 13.3324L7 8.33521L2.00281 13.3324C1.6341 13.7011 1.03631 13.7011 0.667603 13.3324V13.3324C0.298896 12.9637 0.298896 12.3659 0.667602 11.9972L5.6648 7L0.667602 2.00281C0.298896 1.6341 0.298896 1.03631 0.667603 0.667603V0.667603Z"
+          fill="#F5F6FD"
+        />
+      </svg>
+    </button>
+    <div class="popup__wrapper">
+      <h2 class="popup__title">Заголовок</h2>
+      <p class="popup__text">
+        Текст, что мы благодарны за интерес к приложению
+      </p>
+
+      <button class="popup__btn btn" type="button">Буду ждать!</button>
+    </div>
+  </div>
+</div>
+
+
+    <div class="site-wrapper">
+      <header class="header">
+  <!-- Mobile Menu -->
+  <div class="overlay"></div>
+
+  <div class="container">
+    <nav class="header__wrapper">
+      <a class="header__logo" href="index.html">
+        <img src="img/logo-fav.svg" alt="" />
+      </a>
+
+      <div class="header__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">О приложении</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#method">Метод Progressive</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#advantages">Возможности</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#subscription">Тарифы</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакты</a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="header__toggle" type="button" aria-label="Открыть меню">
+        <span class="header__toggle-line"></span>
+        <span class="header__toggle-line"></span>
+        <span class="header__toggle-line"></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+
+      <main class="main">
+        <section class="hero">
+  <lottie-player
+    src="hero_bg_new.json"
+    loop
+    autoplay
+    class="hero__bg"
+  ></lottie-player>
+  <lottie-player
+    src="hero_bg_big_new.json"
+    loop
+    autoplay
+    class="hero__bg hero__bg--big"
+  ></lottie-player>
+
+  <lottie-player src="man.json" loop autoplay class="hero__man"></lottie-player>
+
+  <!-- Man -->
+  <!-- <lottie-player
+    src="animations/man.json"
+    loop
+    autoplay
+    class="hero__man"
+  ></lottie-player> -->
+  <!-- Flag & BG -->
+  <!-- <lottie-player
+    src="animations/flag_bg.json"
+    loop
+    autoplay
+    class="hero__flag"
+  ></lottie-player> -->
+  <!-- Land 1 -->
+  <!-- <lottie-player
+    src="animations/land_1.json"
+    loop
+    autoplay
+    transparent
+    class="hero__land hero__land--1"
+  ></lottie-player> -->
+  <!-- Land 2 -->
+  <!-- <lottie-player
+    src="animations/land_2.json"
+    loop
+    autoplay
+    class="hero__land hero__land--2"
+  ></lottie-player> -->
+  <!-- Land 3 -->
+  <!-- <lottie-player
+    src="animations/land_3.json"
+    loop
+    autoplay
+    class="hero__land hero__land--3"
+  ></lottie-player> -->
+
+  <div class="container">
+    <div class="hero__wrapper">
+      <div class="hero__offer">
+        <img class="hero__logo" src="img/logo-text.svg" alt="img" />
+        <p class="hero__text">
+          Больше чем планирование: искусство самореализации
+        </p>
+        <button class="hero__btn btn launch-btn" type="button">
+          Сообщите о запуске
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- background="transparent"
+  speed="1"
+  style="width: 100%; height: 100%" -->
+
+        <section class="contacts" id="contacts">
+  <div class="container"></div>
+</section>
+
+        <section class="about section" id="about">
+  <div class="container">
+    <div class="about__wrapper">
+      <div class="about__left">
+        <h2 class="about__title">О приложении</h2>
+        <div class="about__text">
+          <p>
+            Progressive — это приложение для лайф-менеджмента. Сфокусируйтесь на
+            действительно значимых целях, чтобы сделать жизнь более
+            сбалансированной, наполненной и счастливой.
+          </p>
+          <p>
+            Оценивайте баланс жизненных сфер, формулируйте долгосрочные цели,
+            воплощайте планы действий, отслеживайте прогресс
+          </p>
+        </div>
+        <button
+          class="about__btn btn"
+          type="button"
+          data-fancybox
+          data-src="https://www.youtube.com/watch?v=pb-j3svRQLI"
+        >
+          Смотреть видео
+        </button>
+      </div>
+      <video class="about__video" src="interface.mp4" autoplay loop muted></video>
+    </div>
+  </div>
+</section>
+
+        <section class="benefits">
+  <div class="container">
+    <h2 class="visually-hidden">преимущества</h2>
+    <ul class="benefits__list">
+      <li class="benefits-item">
+        <img class="benefits-item__img" src="img/benefits/1.svg" alt="" />
+
+        <div class="benefits-item__info">
+          <span class="benefits-item__title">Лайф-менеджмент</span>
+          <p class="benefits-item__text">
+            Управляйте своей жизнью в целом, а не просто списком дел
+          </p>
+        </div>
+      </li>
+      <li class="benefits-item">
+        <img class="benefits-item__img" src="img/benefits/2.svg" alt="" />
+
+        <div class="benefits-item__info">
+          <span class="benefits-item__title">Фокус на приоритетах</span>
+          <p class="benefits-item__text">
+            Сосредоточьтесь на долгосрочных целях, чтобы добиваться прогресса
+            в приоритетных сферах жизни
+          </p>
+        </div>
+      </li>
+      <li class="benefits-item">
+        <img class="benefits-item__img" src="img/benefits/3.svg" alt="" />
+
+        <div class="benefits-item__info">
+          <span class="benefits-item__title">Гибкое планирование</span>
+          <p class="benefits-item__text">
+            Используйте тонкую настройку задач и привычек с привязкой к целям
+            и сферам жизни
+          </p>
+        </div>
+      </li>
+      <li class="benefits-item">
+        <img class="benefits-item__img" src="img/benefits/4.svg" alt="" />
+
+        <div class="benefits-item__info">
+          <span class="benefits-item__title">Анализ прогресса</span>
+          <p class="benefits-item__text">
+            Отслеживайте прогресс в достижении целей и формировании привычек
+            на основе подробной статистики
+          </p>
+        </div>
+      </li>
+      <li class="benefits-item">
+        <img class="benefits-item__img" src="img/benefits/5.svg" alt="" />
+
+        <div class="benefits-item__info">
+          <span class="benefits-item__title">Конфиденциальность</span>
+          <p class="benefits-item__text">
+            Обеспечиваем надежную защиту информации с помощью протокола HTTPS и
+            безопасного хранения в облаке
+          </p>
+        </div>
+      </li>
+      <li class="benefits-item">
+        <img class="benefits-item__img" src="img/benefits/6.svg" alt="" />
+
+        <div class="benefits-item__info">
+          <span class="benefits-item__title">Синхронизация</span>
+          <p class="benefits-item__text">
+            Обновленные данные на одном устройстве автоматически
+            синхронизируются на всех ваших устройствах
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+        <section class="method section" id="method">
+  <div class="container">
+    <div class="method__top">
+      <h2 class="method__title">Метод Progressive</h2>
+
+      <div class="method__text">
+        <p>
+          Полагаясь в планировании дня только на списки дел, мы управляем своей
+          жизнью стихийно. Такой подход неминуемо приводит к стрессу и
+          жизненному дисбалансу.
+        </p>
+        <p>
+          Осознанное управление жизнью начинается с изменения образа мышления.
+          Перед тем как ответить на вопрос «Что я буду делать?» задайте себе
+          вопросы «Что я хочу?» и «Почему я хочу этого?». Таким образом вы
+          сосредоточитесь на значимых целях, а не на страхах, мгновенных
+          удовольствиях или ожиданиях окружающих.
+        </p>
+        <p>И в этом поможет пошаговое планирование по методу Progressive</p>
+      </div>
+    </div>
+    <ul class="method__list">
+      <li class="method-item">
+        <img class="method-item__img" src="img/method/1.png" alt="img" />
+
+        <div class="method-item__body">
+          <span class="method-item__title">Шаг 1: Поставьте цель</span>
+          <div class="method-item__text">
+            <p>Главный вопрос: «Что я хочу?»</p>
+            <p>
+              Четко сформулируйте, что вы хотите добиться, достигнув цели. А
+              инструмент «Колесо баланса» поможет расставить жизненные
+              приоритеты
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="method-item">
+        <img class="method-item__img" src="img/method/2.png" alt="img" />
+
+        <div class="method-item__body">
+          <span class="method-item__title">Шаг 2: Определите мотивацию</span>
+          <div class="method-item__text">
+            <p>Главный вопрос: «Почему мне важно добиться желаемого?»</p>
+            <p>
+              Постарайтесь понять, почему вы на самом деле стремитесь к цели.
+              Это поможет привлечь ресурсы и победить прокрастинацию
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="method-item">
+        <img class="method-item__img" src="img/method/3.png" alt="img" />
+
+        <div class="method-item__body">
+          <span class="method-item__title">Шаг 3: Действуйте по плану</span>
+          <div class="method-item__text">
+            <p>Главный вопрос: «Что мне нужно сделать, чтобы прийти к цели?»</p>
+            <p>
+              Составьте пошаговый план действий. Отслеживайте прогресс, анализируйте ошибки, корректируйте направление
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+        <div class="section" id="advantages">
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages__wrapper">
+        <div class="advantages__slider swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-1/1.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-1/1.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-1/2.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-1/2.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-1/3.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-1/3.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-1/4.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-1/4.png" alt="img" />
+              </picture>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="advantages__content">
+          <h2 class="advantages__title">Расставляем приоритеты</h2>
+          <div class="advantages__text">
+            <p>
+              Уделяя внимание одной сфере жизни, вы можете забыть о другой.
+              Поэтому, чтобы обеспечить гармонию и баланс, важно оценивать
+              удовлетворенность всеми сферами жизни.
+            </p>
+            <p>
+              Для этого подойдет инструмент «Колесо баланса». Он поможет
+              визуализировать внимание, которое вы уделяете разным сферам жизни,
+              разбив их на секторы.
+            </p>
+            <p>
+              Так вы сразу заметите, если какая-то сфера начнет преобладать или,
+              наоборот, уступать другим. И сможете более осознанно стремиться к
+              гармонии в жизни
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages__wrapper">
+        <div class="advantages__slider swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-2/1.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-2/1.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-2/2.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-2/2.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-2/3.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-2/3.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-2/4.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-2/4.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-2/5.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-2/5.png" alt="img" />
+              </picture>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="advantages__content">
+          <h2 class="advantages__title">Прорабатываем цели</h2>
+          <div class="advantages__text">
+            <p>
+              Начните восстановление жизненного баланса с постановки
+              вдохновляющих целей. <br />
+              Четко сформулируйте цель, подумайте над названием и датой
+              достижения. Определите начальное значение, желаемый результат и
+              единицы измерения — так вы сможете отслеживать прогресс.
+            </p>
+            <p>
+              Ответьте на вопросы: «Почему мне это важно?», «Какие ресурсы мне
+              потребуются?» и «Кто меня поддержит?». Это поможет вам найти
+              истинную мотивацию и подготовиться к достижению цели
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages__wrapper">
+        <div class="advantages__slider swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-3/1.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-3/1.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-3/2.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-3/2.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-3/3.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-3/3.png" alt="img" />
+              </picture>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="advantages__content">
+          <h2 class="advantages__title">
+            Упрощаем движение <br />
+            к цели
+          </h2>
+          <div class="advantages__text">
+            <p>Достичь цель проще, если разбить ее на маленькие задачи.</p>
+            <p>
+              Создайте в приложении собственный гибкий план, где каждым шагом
+              станет легко выполнимая задача с конкретными параметрами — датой,
+              временем, приоритетами, напоминаниями и привязкой к цели.
+            </p>
+            <p>
+              Такое пошаговое движение повысит мотивацию и снизит уровень
+              стресса
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages__wrapper">
+        <div class="advantages__slider swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-4/1.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-4/1.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-4/2.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-4/2.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-4/3.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-4/3.png" alt="img" />
+              </picture>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="advantages__content">
+          <h2 class="advantages__title">Настраиваем привычки</h2>
+          <div class="advantages__text">
+            <p>
+              Формируйте и закрепляйте новые позитивные привычки и избавляйтесь
+              от негативных.
+            </p>
+            <p>
+              Установите дневную норму для каждой привычки с помощью гибких
+              критериев выполнения: «количество» и «длительность», а
+              также логических операторов «не более», «не менее», «ровно».
+            </p>
+            <p>
+              «Количество» позволяет установить количество повторений
+              определенного действия в течение дня. Например: «пить воду не
+              менее 6 стаканов в день» или «курить не более 2 сигарет в день».
+            </p>
+            <p>
+              «Длительность» устанавливает лимит времени на выполнение действия
+              в день. Например: «Читать не менее 30 минут в день»
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages__wrapper">
+        <div class="advantages__slider swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-5/1.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-5/1.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-5/2.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-5/2.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-5/3.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-5/3.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-5/4.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-5/4.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-5/5.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-5/5.png" alt="img" />
+              </picture>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="advantages__content">
+          <h2 class="advantages__title">
+            Добавляем данные <br />
+            быстро
+          </h2>
+          <div class="advantages__text">
+            <p>
+              Управляйте расписанием, добавляйте задачи и привычки, меняйте
+              статус с помощью быстрых действий.
+            </p>
+            <p>
+              Используйте функцию «таймер» для привычек с назначенной
+              «длительностью».
+            </p>
+            <p>
+              А для привычек с определенным «количеством» используйте функцию
+              «+1» — нажимайте «+1», когда выпьете очередной стакан воды
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages__wrapper">
+        <div class="advantages__slider swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-6/1.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-6/1.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-6/2.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-6/2.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-6/3.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-6/3.png" alt="img" />
+              </picture>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="advantages__content">
+          <h2 class="advantages__title">Отслеживаем прогресс</h2>
+          <div class="advantages__text">
+            <p>
+              Измеряйте прогресс в двух направлениях: в достижении цели на
+              основе плана и в формировании отдельной привычки.
+            </p>
+            <p>
+              При постановке цели установите начальное значение, желаемый
+              результат и единицы измерения. Изучайте их динамику и достигнутые
+              результаты на графике прогресса.
+            </p>
+            <p>
+              Работайте с привычками, используя метод непрерывной цепочки. Так
+              вы начнете воспринимать привычку как часть рутины и подсознательно
+              захотите продолжать ее соблюдать.
+            </p>
+            <p>
+              Этот метод помогает сформировать новые привычки, сохранить
+              существующие и повысить мотивацию и уверенность в себе
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages__wrapper">
+        <div class="advantages__slider swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-7/1.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-7/1.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-7/2.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-7/2.png" alt="img" />
+              </picture>
+            </li>
+            <li class="swiper-slide">
+              <picture>
+                <source
+                  srcset="img/advantages/slider-7/3.webp"
+                  type="image/webp"
+                />
+                <img src="img/advantages/slider-7/3.png" alt="img" />
+              </picture>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="advantages__content">
+          <h2 class="advantages__title">Узнаем новое</h2>
+          <div class="advantages__text">
+            <p>
+              Слушайте аудиокурс от практикующих психологов и коучей в разделе
+              «Ресурсы». Он поможет узнать принципы эффективного управления
+              своей жизнью и поддерживать себя в ресурсном состоянии. <br />
+              Записывайте мысли и идеи, чтобы лучше запомнить и применять новые
+              техники
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+        <section class="owner">
+  <div class="container">
+    <div class="owner__wrapper">
+      <div class="owner__left">
+        <h2 class="owner__title">Слово от создателей</h2>
+        <div class="owner__text">
+          <p>
+            «Мы знаем, как трудно сохранять мотивацию и не терять себя
+            в бесконечном потоке дел и обязанностей.
+          </p>
+          <p>
+            Мы сталкивались с этим не раз. И однажды поняли, что традиционные
+            техники и инструменты планирования на основе принципа «делай больше
+            за меньшее время» не годятся для управления жизнью. Поэтому мы
+            решили создать систему, которая поможет сфокусироваться на важных
+            вещах и улучшить качество жизни.
+          </p>
+          <p>
+            В основе Progressive лежат практики лайф-менеджмента, которые
+            позволяют переключить внимание с задач на результаты и связать
+            ежедневные усилия с достижением долгосрочных целей.
+          </p>
+          <p>
+            С Progressive вы добьетесь большего, получите удовлетворение
+            от процесса.
+          </p>
+          <p>Верните контроль над своей жизнью вместе с Progressive!»</p>
+        </div>
+      </div>
+      <div class="owner__right owner-right">
+        <div class="owner-right__imgs">
+          <div class="owner-right__img">
+            <picture>
+              <source srcset="img/owner/1.webp" type="image/webp" />
+              <img src="img/owner/1.png" alt="img" />
+            </picture>
+          </div>
+          <div class="owner-right__img">
+            <picture>
+              <source srcset="img/owner/2.webp" type="image/webp" />
+              <img src="img/owner/2.png" alt="img" />
+            </picture>
+          </div>
+        </div>
+        <div class="owner-right__text">
+          <span class="owner-right__name">Илья Нилов</span>
+          <span class="owner-right__name">Татьяна Бирюкова</span>
+          <span>Создатели</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section class="subscription section" id="subscription">
+  <div class="container">
+    <div class="subscription__wrapper">
+      <div class="subscription__left">
+        <h2 class="subscription__title">Подписка Progressive Premium:</h2>
+
+        <ul class="subscription__list">
+          <li class="subscription__item">
+            Добавление 4 индивидуальных сфер жизни
+          </li>
+          <li class="subscription__item">Неограниченное количество целей</li>
+          <li class="subscription__item">Неограниченное количество привычек</li>
+          <li class="subscription__item">
+            Возможность установить до 7 напоминаний на задачу
+          </li>
+          <li class="subscription__item">
+            Возможность установить код доступа для входа в приложение
+          </li>
+        </ul>
+      </div>
+      <ul class="subscription__items">
+        <li class="subscription-item subscription-item--big">
+          <div class="subscription-item__inner">
+            <img
+              class="subscription-item__icon"
+              src="img/star-fill.svg"
+              alt="img"
+            />
+            <span class="subscription-item__term">12 месяцев</span>
+            <span class="subscription-item__price">за 1190 ₽</span>
+
+            <button class="subscription-item__btn" type="button">
+              99 ₽ / мес
+            </button>
+          </div>
+
+          <div class="subscription-item__img">
+            <picture>
+              <source srcset="img/trophie.webp" type="image/webp" />
+              <img src="img/trophie.png" alt="img" />
+            </picture>
+          </div>
+        </li>
+        <li class="subscription-item">
+          <div class="subscription-item__inner">
+            <img
+              class="subscription-item__icon"
+              src="img/star-dark.svg"
+              alt="img"
+            />
+            <span class="subscription-item__term">1 месяцев</span>
+            <span class="subscription-item__price">за 279 ₽</span>
+
+            <button class="subscription-item__btn" type="button">
+              279 ₽ / мес
+            </button>
+          </div>
+        </li>
+        <li class="subscription-item">
+          <div class="subscription-item__inner">
+            <img
+              class="subscription-item__icon"
+              src="img/star-dark.svg"
+              alt="img"
+            />
+            <span class="subscription-item__term">3 месяцев</span>
+            <span class="subscription-item__price">за 449 ₽</span>
+
+            <button class="subscription-item__btn" type="button">
+              149 ₽ / мес
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+        <section class="join">
+  <div class="container">
+    <div class="join__wrapper">
+      <div class="join__left">
+        <h2 class="join__title">Присоединяйтесь</h2>
+        <p class="join__text">
+          С бесплатной версией приложения можно использовать базовые функции
+          всех разделов без ограничения по времени
+        </p>
+
+        <div class="join__img join__img--mobile">
+          <!-- <picture>
+            <source srcset="img/join-img.webp" type="image/webp" />
+            <img src="img/join-img.png" alt="img" />
+          </picture> -->
+          <img src="img/gears.gif" alt="">
+        </div>
+        <button class="join__btn btn" type="button">Начать бесплатно</button>
+      </div>
+      <div class="join__img">
+        <!-- <picture>
+          <source srcset="img/join-img.webp" type="image/webp" />
+          <img src="img/join-img.png" alt="img" />
+        </picture> -->
+                  <img src="img/gears.gif" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+      </main>
+      <footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a class="footer__logo" href="index.html">
+        <picture>
+          <source srcset="img/logo-small.svg" media="(max-width: 767px)" />
+          <img src="img/logo-big.svg" alt="logo" />
+        </picture>
+      </a>
+    </div>
+    <div class="footer__wrapper">
+      <p class="footer__text">
+        Больше чем планирование: искусство самореализации
+      </p>
+
+      <div class="footer__lists">
+        <div class="footer__links">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">О приложении</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Метод Progressive</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">Возможности</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Подписка</a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" target="_blank" href="policy.html"
+              >Политика конфиденциальности</a
+            >
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" target="_blank" href="terms.html"
+              >Пользовательское соглашение</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copy">
+        <svg
+          width="14"
+          height="14"
+          viewBox="0 0 14 14"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7 0C3.13438 0 0 3.13438 0 7C0 10.8656 3.13438 14 7 14C10.8656 14 14 10.8656 14 7C14 3.13438 10.8656 0 7 0ZM7 12.8125C3.79063 12.8125 1.1875 10.2094 1.1875 7C1.1875 3.79063 3.79063 1.1875 7 1.1875C10.2094 1.1875 12.8125 3.79063 12.8125 7C12.8125 10.2094 10.2094 12.8125 7 12.8125ZM7.0875 4.48906C7.91562 4.48906 8.47812 5.01719 8.54062 5.79219C8.54531 5.85781 8.6 5.90781 8.66562 5.90781H9.55156C9.59219 5.90781 9.625 5.875 9.625 5.83437C9.625 4.47969 8.55625 3.53125 7.08281 3.53125C5.36562 3.53125 4.375 4.69062 4.375 6.60625V7.42344C4.375 9.325 5.36562 10.4688 7.08281 10.4688C8.55156 10.4688 9.625 9.55 9.625 8.25937C9.625 8.21875 9.59219 8.18594 9.55156 8.18594H8.66406C8.59844 8.18594 8.54531 8.23594 8.53906 8.3C8.47344 9.02031 7.9125 9.51562 7.08594 9.51562C6.06563 9.51562 5.49062 8.76719 5.49062 7.42813V6.60625C5.49219 5.24687 6.06875 4.48906 7.0875 4.48906Z"
+            fill="#BDC2D1"
+          />
+        </svg>
+        Progressive 2023
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+      <!-- <div class="c-block">
+        <div class="c-block__wrapper">
+          <p class="c-block__text">
+            Мы используем файлы cookie для обеспечения необходимых функций
+            веб-сайта. <br />
+            Продолжая работу с сайтом, вы соглашаетесь с «Политикой
+            конфиденциальности и использованием файлов cookie»
+          </p>
+          <button class="c-block__btn btn" type="button">Хорошо</button>
+          <button class="c-block__close" type="button">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.667603 0.667603C1.03631 0.298896 1.6341 0.298896 2.00281 0.667602L7 5.6648L11.9972 0.667602C12.3659 0.298896 12.9637 0.298896 13.3324 0.667603C13.7011 1.03631 13.7011 1.6341 13.3324 2.00281L8.33521 7L13.3324 11.9972C13.7011 12.3659 13.7011 12.9637 13.3324 13.3324C12.9637 13.7011 12.3659 13.7011 11.9972 13.3324L7 8.33521L2.00281 13.3324C1.6341 13.7011 1.03631 13.7011 0.667603 13.3324C0.298896 12.9637 0.298896 12.3659 0.667602 11.9972L5.6648 7L0.667602 2.00281C0.298896 1.6341 0.298896 1.03631 0.667603 0.667603Z"
+                fill="#F5F6FD"
+              />
+            </svg>
+          </button>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- nouislider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.js"></script>
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Choices JS -->
+<script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+
+<!-- Input Mask -->
+<script
+  src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"
+  type="text/javascript"
+></script>
+
+<!-- Nice Select -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+
+<!-- lottie -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<!-- fancybox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<!-- JS -->
+<script src="js/main.min.js"></script>
+
+  </body>
+</html>

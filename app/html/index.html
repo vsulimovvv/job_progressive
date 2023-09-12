@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    @include('./components/base/_meta.html')
+    @include('./components/base/_links.html')
+  </head>
+
+  <body>
+    @include('./components/_popups.html')
+
+    <div class="site-wrapper">
+      @include('./components/_header.html')
+
+      <main class="main">
+        @include('./components/_hero.html')
+        @include('./components/_contacts.html')
+        @include('./components/_about.html')
+        @include('./components/_benefits.html')
+        @include('./components/_method.html')
+        @include('./components/_advantages.html')
+        @include('./components/_owner.html')
+        @include('./components/_subscription.html')
+        @include('./components/_join.html')
+      </main>
+      @include('./components/_footer.html')
+
+      <!-- <div class="c-block">
+        <div class="c-block__wrapper">
+          <p class="c-block__text">
+            Мы используем файлы cookie для обеспечения необходимых функций
+            веб-сайта. <br />
+            Продолжая работу с сайтом, вы соглашаетесь с «Политикой
+            конфиденциальности и использованием файлов cookie»
+          </p>
+          <button class="c-block__btn btn" type="button">Хорошо</button>
+          <button class="c-block__close" type="button">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.667603 0.667603C1.03631 0.298896 1.6341 0.298896 2.00281 0.667602L7 5.6648L11.9972 0.667602C12.3659 0.298896 12.9637 0.298896 13.3324 0.667603C13.7011 1.03631 13.7011 1.6341 13.3324 2.00281L8.33521 7L13.3324 11.9972C13.7011 12.3659 13.7011 12.9637 13.3324 13.3324C12.9637 13.7011 12.3659 13.7011 11.9972 13.3324L7 8.33521L2.00281 13.3324C1.6341 13.7011 1.03631 13.7011 0.667603 13.3324C0.298896 12.9637 0.298896 12.3659 0.667602 11.9972L5.6648 7L0.667602 2.00281C0.298896 1.6341 0.298896 1.03631 0.667603 0.667603Z"
+                fill="#F5F6FD"
+              />
+            </svg>
+          </button>
+        </div>
+      </div> -->
+    </div>
+
+    @include('./components/base/_scripts.html')
+  </body>
+</html>
