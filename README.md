@@ -2,4 +2,4 @@
 
 ### Страницы
 
-https://vsulimovvv.github.io/_/app/index.html  
+https://vsulimovvv.github.io/job_progressive/app/index.html  
